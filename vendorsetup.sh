@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du.mk \
-    $(LOCAL_DIR)/twrp_blueline.mk
+add_lunch_combo aosp_blueline-userdebug
+add_lunch_combo aosp_blueline-userdebug
+add_lunch_combo twrp_blueline-userdebug
